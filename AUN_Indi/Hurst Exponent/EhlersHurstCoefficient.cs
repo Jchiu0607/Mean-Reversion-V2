@@ -36,23 +36,23 @@ namespace NinjaTrader.NinjaScript.Indicators.AUN_Indi.Ehlers
 		{
 			if (State == State.SetDefaults)
 			{
-				Description									= @"The Hurst Coefficient: John Ehlers, Cycle Analytics For Traders, pg.67-68";
+				Description									= @"Based on John Ehlers Explanation of the Hurst Coefficient";
 				Name										= "EhlersHurstCoefficient";
 				Calculate									= Calculate.OnBarClose;
 				IsOverlay									= false;
-				DisplayInDataBox							= true;
-				DrawOnPricePanel							= true;
-				DrawHorizontalGridLines						= true;
-				DrawVerticalGridLines						= true;
-				PaintPriceMarkers							= true;
-				ScaleJustification							= NinjaTrader.Gui.Chart.ScaleJustification.Right;
+				DisplayInDataBox								= true;
+				DrawOnPricePanel								= true;
+				DrawHorizontalGridLines								= true;
+				DrawVerticalGridLines								= true;
+				PaintPriceMarkers								= true;
+				ScaleJustification								= NinjaTrader.Gui.Chart.ScaleJustification.Right;
 				//Disable this property if your indicator requires custom values that cumulate with each new market data event. 
 				//See Help Guide for additional information.
 				IsSuspendedWhileInactive					= true;
-				Length					= 30;
-				Ssflength					= 20;
-				ColorD					= Brushes.Red;
-				ColorU					= Brushes.LimeGreen;				
+				Length								= 30;
+				Ssflength							= 20;
+				ColorD								= Brushes.Red;
+				ColorU								= Brushes.LimeGreen;				
 				AddPlot(Brushes.DarkBlue, "SmoothHurst");
 				AddLine(Brushes.Goldenrod, 0.5, "ZerroLevel");
 			}
