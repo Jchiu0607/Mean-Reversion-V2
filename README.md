@@ -2,6 +2,8 @@ Below is a returns profile of the past 260 trading days.
 Notable Statistics: 1.29 Sharpe Ratio, 16.78 Sortino Ratio, 1.69 Profit Factor
 The starting Account Margin was 50k in 1/30/2024 
 
+Outperformed SP500 by 1.63%, Citadel by 9.7%, BAM by 13.2% 
+
 This was run and tested specifically for ES
 This was made on and for Ninjatrader. 
 
